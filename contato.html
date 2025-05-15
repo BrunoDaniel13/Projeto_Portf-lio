@@ -6,42 +6,56 @@
 		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="Generation Brasil">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
+
+		<!-- Link para a Folha de Estilo da Página - CSS -->
+		<link rel="stylesheet" href="./assets/css/style.css">
+
 		<title>Meu Perfil</title>
 	</head>
 	<body>
 		
+		<!-- Cabeçalho da Página (header) -->
 		<header>
-			
-			<div id="header_content">
-				
+
+			<!-- Div Conteudo do Cabeçalho -->
+			<div id="header_content" class="flex">
+
+				<!-- Titulo do Cabeçalho -->
 				<div id="titulo">
-					
+
+					<!-- Seu nome -->
 					<h1>Bruno Daniel</h1>
+
 				</div>
 
-				
+				<!-- Conteudo do Menu da Página (header) -->
 				<div id="menu">
-					
+
+					<!-- Menu da Página -->
 					<nav>
-						
+
+						<!-- Marcadores não ordenados + links -->
 						<ul id="menu">
 							<li>
-								<a href="index.html"> Home </a>
+								<a href="index.html">Home</a>
 							</li>
 							<li>
-								<a href="contato.html"> Contato </a>
+								<a href="contato.html">Contato</a>
 							</li>
 						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
 
+					</nav>
+
+				</div>
+
+			</div>
+
+		</header>
 		
 		<main>
 			
 			
-			<section id="contact">
+			<section id="contact" class="flex">
 				
 				
 				<form action="#" method="submit" id="formulario">
@@ -88,10 +102,11 @@
 				</form>
 
 				
-				<article id="mapa">
-                        <p>Jardim Bom Pastor</p>
+				<article id="mapa" class="flex_start">
+                    <div id="endereco"> 
+							<p>Jardim Bom Pastor</p>
 	                        <p>Santo André - SP</p>
-
+					</div>
 	                        <iframe
 		                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14615.896980256131!2d-46.56008885453403!3d-23.67687900952622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4255a806fea1%3A0xb4eac330925df5de!2sJardim%20Bom%20Pastor%2C%20Santo%20Andr%C3%A9%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1747194108905!5m2!1spt-BR!2sbr"
 		                        width="400"
@@ -111,18 +126,21 @@
 		</main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
-			<!-- Seção de Contato - Redes Sociais -->
+		<footer class="flex">
+
+			<!-- Seção de Contato - Redes Sociais-->
 			<section id="redes_sociais">
+
 				<a href="">
-					<img src="assets/img/linkedin.svg" alt="LinkedIn" />
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
 				</a>
 				<a href="">
-					<img src="assets/img/github.svg" alt="Github" />
+					<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
 				</a>
 				<a href="">
-					<img src="assets/img/instagram.svg" alt="Instagram" />
+					<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
 				</a>
+
 			</section>
 
 			<h3>Feito com 🧡 por Bruno Daniel - 2025</h3>
